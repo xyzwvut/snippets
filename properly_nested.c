@@ -38,6 +38,7 @@ exit:
     return !!level;
 }
 
+
 int
 main(void)
 {
@@ -63,5 +64,7 @@ main(void)
     assert(!properly_nested(p6));
     assert(!properly_nested(p7));
     assert(!properly_nested(p9));
+
+    return 0;
 }
 
